@@ -9,6 +9,8 @@ func there
 - `unstake()` — withdraw tokens + reward
 - `calculateReward(address user)` — view your pending rewards
 - `getStake(address user)` — see stake info (amount, timestamp)
+
+
   // Example: Call stake() on StakingContract using RPC and private key
 
 import { ethers } from "ethers";
